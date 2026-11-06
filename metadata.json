@@ -1,0 +1,6 @@
+{
+  "name": "FOAXX — Wear Your Wow | Fashion & Jewellery",
+  "description": "Premium women's fashion and jewellery e-commerce store with full interactive catalog, cart, checkout, user account, and live content admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

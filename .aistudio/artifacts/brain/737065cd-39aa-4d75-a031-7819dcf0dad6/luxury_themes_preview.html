@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOAXX — Luxury Theme Visual Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Italiana&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-cormorant { font-family: 'Cormorant Garamond', Georgia, serif; }
+    .font-cinzel { font-family: 'Cinzel', Georgia, serif; }
+    .font-italiana { font-family: 'Italiana', Georgia, serif; }
+    .font-syne { font-family: 'Syne', sans-serif; }
+    .font-sans-luxury { font-family: 'Plus Jakarta Sans', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#121110] text-stone-200 min-h-screen font-sans-luxury p-4 md:p-8">
+
+  <!-- Header & Concept Nav -->
+  <div class="max-w-7xl mx-auto mb-10 text-center">
+    <span class="text-xs uppercase tracking-[0.3em] text-[#C5A880] font-medium block mb-2">Visual Direction Showcase</span>
+    <h1 class="text-3xl md:text-5xl font-cormorant italic text-white tracking-wide mb-3">FOAXX Luxury Theme Visualizations</h1>
+    <p class="text-stone-400 text-sm max-w-2xl mx-auto mb-6">
+      Live visual mockups of the 3 proposed aesthetic transformations. Compare the typography, color palettes, hero designs, and product cards side-by-side.
+    </p>
+
+    <!-- Theme Tabs -->
+    <div class="inline-flex p-1.5 rounded-full bg-stone-900 border border-stone-800 shadow-2xl space-x-1" id="themeTabs">
+      <button onclick="switchTheme('atelier')" id="tab-atelier" class="px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-[#C5A880] text-stone-950 shadow">
+        1. Atelier Parisien (Old-Money Luxury)
+      </button>
+      <button onclick="switchTheme('noir')" id="tab-noir" class="px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all text-stone-400 hover:text-white">
+        2. Modern Noir & Champagne
+      </button>
+      <button onclick="switchTheme('royale')" id="tab-royale" class="px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all text-stone-400 hover:text-white">
+        3. Indian Royale Moderné
+      </button>
+    </div>
+  </div>
+
+  <!-- THEME 1: ATELIER PARISIEN -->
+  <div id="theme-atelier" class="max-w-6xl mx-auto bg-[#FAF8F5] text-stone-900 rounded-2xl shadow-2xl overflow-hidden border border-[#EAE3D9] transition-all duration-300">
+    <!-- Top Announcement Strip -->
+    <div class="bg-[#1C1815] text-[#D8C7B5] px-6 py-2.5 text-[11px] tracking-[0.25em] uppercase text-center font-medium flex justify-between items-center">
+      <span class="hidden sm:inline">Complimentary White-Glove Shipping Over ₹999</span>
+      <span class="mx-auto sm:mx-0">Atelier FOAXX • Handcrafted Haute Joaillerie</span>
+      <span class="hidden sm:inline">Code: LUXE20 for 20% Off</span>
+    </div>
+
+    <!-- Atelier Header -->
+    <header class="px-8 py-5 border-b border-[#EAE3D9] flex items-center justify-between bg-[#FAF8F5]/90 backdrop-blur">
+      <div class="flex items-center space-x-6 text-xs uppercase tracking-[0.2em] font-medium text-stone-700">
+        <a href="#" class="hover:text-[#9E774A] transition">High Jewellery</a>
+        <a href="#" class="hover:text-[#9E774A] transition">Couture</a>
+        <a href="#" class="hover:text-[#9E774A] transition">Lookbook</a>
+      </div>
+      <div class="text-center">
+        <div class="font-cormorant text-4xl tracking-[0.3em] font-semibold text-[#1C1815] uppercase">FOAXX</div>
+        <div class="text-[9px] uppercase tracking-[0.4em] text-[#9E774A] font-medium mt-0.5">Maison De Joaillerie</div>
+      </div>
+      <div class="flex items-center space-x-5 text-stone-800">
+        <button class="flex items-center space-x-2 text-xs uppercase tracking-wider text-stone-600 hover:text-stone-900">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <span class="hidden md:inline">Discover</span>
+        </button>
+        <div class="w-px h-4 bg-stone-300"></div>
+        <span class="text-xs uppercase tracking-wider">Bag (3)</span>
+      </div>
+    </header>
+
+    <!-- Atelier Hero Showcase -->
+    <div class="relative bg-gradient-to-r from-[#F4EFEA] via-[#EFE8E0] to-[#E8DFD5] p-8 md:p-16 border-b border-[#EAE3D9] overflow-hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+        <div class="space-y-5">
+          <span class="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#8C6538] block">Spring Atelier • Volume IV</span>
+          <h2 class="text-4xl md:text-6xl font-cormorant font-normal text-[#1A1614] leading-[1.1]">
+            The Poetry of <br><span class="italic font-normal text-[#8C6538]">Heirloom Adornment</span>
+          </h2>
+          <p class="text-stone-600 text-sm leading-relaxed max-w-md font-light">
+            Individually cast in 18k champagne gold plating with responsibly sourced conflict-free gemstones. Sculpted for the woman who commands quiet elegance.
+          </p>
+          <div class="flex items-center space-x-4 pt-3">
+            <button class="px-7 py-3 bg-[#1C1815] text-[#F7F4EE] text-xs uppercase tracking-[0.2em] font-medium hover:bg-[#8C6538] transition shadow-md">
+              Explore The Vault &rarr;
+            </button>
+            <button class="px-7 py-3 border border-[#1C1815] text-[#1C1815] text-xs uppercase tracking-[0.2em] font-medium hover:bg-[#FAF8F5] transition">
+              Read Lookbook
+            </button>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/5] rounded-t-full overflow-hidden border-2 border-[#D8C7B5] shadow-2xl relative">
+            <img src="/assets/extracted/cat_jewellery.png" alt="Jewellery" class="w-full h-full object-cover">
+            <div class="absolute bottom-4 left-4 right-4 bg-[#FAF8F5]/95 backdrop-blur p-4 border border-[#EAE3D9] text-center">
+              <span class="text-[10px] uppercase tracking-[0.25em] text-stone-500 block">Featured Piece</span>
+              <span class="font-cormorant text-lg font-medium text-stone-900">Polki Solitaire Choker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Atelier Product Cards Strip -->
+    <div class="p-8 md:p-12">
+      <div class="flex justify-between items-end mb-8">
+        <div>
+          <span class="text-[10px] uppercase tracking-[0.3em] text-[#8C6538] font-semibold block mb-1">Curated Selection</span>
+          <h3 class="text-2xl md:text-3xl font-cormorant italic font-normal text-stone-900">Signatures of the Maison</h3>
+        </div>
+        <a href="#" class="text-xs uppercase tracking-[0.2em] text-[#8C6538] hover:underline font-medium">View All Archive &rarr;</a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="group bg-white p-4 border border-[#EFE9DF] hover:border-[#8C6538]/50 transition duration-300">
+          <div class="aspect-[3/4] overflow-hidden bg-[#FAF8F5] relative mb-4">
+            <img src="/assets/extracted/prod_pearl_earrings.png" alt="Pearl Drop" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-2.5 left-2.5 bg-[#1C1815] text-[#D8C7B5] text-[9px] uppercase tracking-[0.2em] px-2.5 py-1">Atelier Icon</span>
+          </div>
+          <span class="text-[10px] uppercase tracking-[0.2em] text-stone-400 block mb-1">Fine Earrings</span>
+          <h4 class="font-cormorant text-lg text-stone-900 group-hover:text-[#8C6538] transition font-medium">Lumière Pearl Drops</h4>
+          <div class="flex items-center space-x-2 mt-2">
+            <span class="text-sm font-semibold text-stone-900">₹899</span>
+            <span class="text-xs text-stone-400 line-through">₹1,299</span>
+            <span class="text-[10px] text-[#8C6538] uppercase tracking-wider">31% Benefit</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="group bg-white p-4 border border-[#EFE9DF] hover:border-[#8C6538]/50 transition duration-300">
+          <div class="aspect-[3/4] overflow-hidden bg-[#FAF8F5] relative mb-4">
+            <img src="/assets/extracted/prod_necklace.png" alt="Charm Necklace" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-2.5 left-2.5 bg-[#8C6538] text-white text-[9px] uppercase tracking-[0.2em] px-2.5 py-1">24k Plated</span>
+          </div>
+          <span class="text-[10px] uppercase tracking-[0.2em] text-stone-400 block mb-1">Necklaces</span>
+          <h4 class="font-cormorant text-lg text-stone-900 group-hover:text-[#8C6538] transition font-medium">Solstice Charm Collar</h4>
+          <div class="flex items-center space-x-2 mt-2">
+            <span class="text-sm font-semibold text-stone-900">₹1,299</span>
+            <span class="text-xs text-stone-400 line-through">₹1,799</span>
+            <span class="text-[10px] text-[#8C6538] uppercase tracking-wider">Heirloom</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="group bg-white p-4 border border-[#EFE9DF] hover:border-[#8C6538]/50 transition duration-300">
+          <div class="aspect-[3/4] overflow-hidden bg-[#FAF8F5] relative mb-4">
+            <img src="/assets/extracted/prod_rings.png" alt="Stackable Rings" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <span class="text-[10px] uppercase tracking-[0.2em] text-stone-400 block mb-1">Rings</span>
+          <h4 class="font-cormorant text-lg text-stone-900 group-hover:text-[#8C6538] transition font-medium">Pavé Triple Eternity Band</h4>
+          <div class="flex items-center space-x-2 mt-2">
+            <span class="text-sm font-semibold text-stone-900">₹699</span>
+            <span class="text-xs text-stone-400 line-through">₹999</span>
+            <span class="text-[10px] text-[#8C6538] uppercase tracking-wider">30% Benefit</span>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="group bg-white p-4 border border-[#EFE9DF] hover:border-[#8C6538]/50 transition duration-300">
+          <div class="aspect-[3/4] overflow-hidden bg-[#FAF8F5] relative mb-4">
+            <img src="/assets/extracted/prod_floral_coord.png" alt="Floral Co-ord" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-2.5 left-2.5 bg-[#5C1D24] text-white text-[9px] uppercase tracking-[0.2em] px-2.5 py-1">Couture Edit</span>
+          </div>
+          <span class="text-[10px] uppercase tracking-[0.2em] text-stone-400 block mb-1">Ready-to-Wear</span>
+          <h4 class="font-cormorant text-lg text-stone-900 group-hover:text-[#8C6538] transition font-medium">Rose Mirage Georgette Co-ord</h4>
+          <div class="flex items-center space-x-2 mt-2">
+            <span class="text-sm font-semibold text-stone-900">₹1,699</span>
+            <span class="text-xs text-stone-400 line-through">₹2,499</span>
+            <span class="text-[10px] text-[#8C6538] uppercase tracking-wider">32% Benefit</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THEME 2: MODERN NOIR & CHAMPAGNE -->
+  <div id="theme-noir" class="max-w-6xl mx-auto bg-[#0E0E0E] text-white rounded-none shadow-2xl overflow-hidden border border-[#262626] hidden transition-all duration-300">
+    <!-- Noir Header -->
+    <header class="px-8 py-6 border-b border-[#222222] flex items-center justify-between bg-[#0E0E0E]">
+      <div class="flex items-center space-x-8 text-[11px] uppercase tracking-[0.3em] font-medium text-stone-400">
+        <a href="#" class="hover:text-white transition">Collection 2026</a>
+        <a href="#" class="hover:text-white transition">Jewels</a>
+        <a href="#" class="hover:text-white transition">Runway</a>
+      </div>
+      <div class="text-center">
+        <div class="font-syne text-3xl font-extrabold tracking-[0.4em] text-white uppercase">FOAXX</div>
+        <div class="text-[8px] uppercase tracking-[0.5em] text-[#D4AF37] font-semibold mt-1">PARIS • MILAN • DELHI</div>
+      </div>
+      <div class="flex items-center space-x-6 text-stone-300">
+        <span class="text-[11px] uppercase tracking-[0.25em] text-[#D4AF37] border-b border-[#D4AF37] pb-0.5 cursor-pointer">Search</span>
+        <span class="text-[11px] uppercase tracking-[0.25em]">Bag [03]</span>
+      </div>
+    </header>
+
+    <!-- Noir Hero -->
+    <div class="relative p-8 md:p-16 border-b border-[#222222] bg-gradient-to-br from-[#141414] via-[#0E0E0E] to-[#0A0A0A]">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center max-w-5xl mx-auto">
+        <div class="md:col-span-7 space-y-6">
+          <div class="inline-block text-[10px] uppercase tracking-[0.4em] text-[#D4AF37] font-bold border-l-2 border-[#D4AF37] pl-3">
+            ARCHITECTURAL HIGH JEWELLERY
+          </div>
+          <h2 class="text-5xl md:text-7xl font-syne font-bold uppercase tracking-tight text-white leading-none">
+            UNAPOLOGETIC <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#F3E5AB] via-[#D4AF37] to-[#AA771C]">BRILLIANCE.</span>
+          </h2>
+          <p class="text-stone-400 text-sm max-w-md font-light leading-relaxed">
+            Minimal geometry fused with liquid gold. Crafted with zero compromise for those who shape the night.
+          </p>
+          <div class="pt-4 flex items-center space-x-4">
+            <button class="px-8 py-3.5 bg-[#D4AF37] text-black font-syne text-xs uppercase tracking-[0.25em] font-bold hover:bg-white transition">
+              ENTER RUNWAY
+            </button>
+            <button class="px-8 py-3.5 border border-stone-700 text-stone-300 font-syne text-xs uppercase tracking-[0.25em] font-bold hover:border-white hover:text-white transition">
+              VIEW CAMPAIGN
+            </button>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <div class="aspect-[3/4] bg-stone-900 border border-stone-800 relative overflow-hidden group">
+            <img src="/assets/extracted/prod_bag.png" alt="Shoulder Bag" class="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 transition duration-700">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+              <span class="text-[9px] uppercase tracking-[0.4em] text-[#D4AF37] block font-semibold">EDITION NO. 01</span>
+              <div class="text-xl font-syne font-bold uppercase tracking-wider text-white">OBSIDIAN LEATHER CLUTCH</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Noir Product Grid -->
+    <div class="p-8 md:p-12">
+      <div class="flex justify-between items-center mb-8 border-b border-[#222222] pb-4">
+        <h3 class="text-xl font-syne font-bold uppercase tracking-[0.2em] text-white">CAPSULE NO. 08</h3>
+        <span class="text-xs uppercase tracking-[0.25em] text-[#D4AF37] font-semibold cursor-pointer">FULL CATALOG [128] &rarr;</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-[#141414] border border-[#222222] p-4 group hover:border-[#D4AF37] transition">
+          <div class="aspect-[3/4] bg-black overflow-hidden mb-4 relative">
+            <img src="/assets/extracted/prod_pearl_earrings.png" alt="Earrings" class="w-full h-full object-cover">
+            <div class="absolute top-2 right-2 text-[9px] bg-black text-[#D4AF37] px-2 py-0.5 font-mono border border-[#D4AF37]/30">01/08</div>
+          </div>
+          <div class="text-xs font-syne uppercase tracking-wider text-stone-400">Drops</div>
+          <div class="font-syne font-bold uppercase text-white mt-1">LUMIÈRE DROPS</div>
+          <div class="flex items-center space-x-2 mt-2 font-mono text-xs">
+            <span class="text-[#D4AF37] font-bold">₹899</span>
+            <span class="text-stone-600 line-through">₹1,299</span>
+          </div>
+        </div>
+
+        <div class="bg-[#141414] border border-[#222222] p-4 group hover:border-[#D4AF37] transition">
+          <div class="aspect-[3/4] bg-black overflow-hidden mb-4 relative">
+            <img src="/assets/extracted/prod_necklace.png" alt="Necklace" class="w-full h-full object-cover">
+            <div class="absolute top-2 right-2 text-[9px] bg-black text-[#D4AF37] px-2 py-0.5 font-mono border border-[#D4AF37]/30">02/08</div>
+          </div>
+          <div class="text-xs font-syne uppercase tracking-wider text-stone-400">Necklaces</div>
+          <div class="font-syne font-bold uppercase text-white mt-1">SOLSTICE COLLAR</div>
+          <div class="flex items-center space-x-2 mt-2 font-mono text-xs">
+            <span class="text-[#D4AF37] font-bold">₹1,299</span>
+            <span class="text-stone-600 line-through">₹1,799</span>
+          </div>
+        </div>
+
+        <div class="bg-[#141414] border border-[#222222] p-4 group hover:border-[#D4AF37] transition">
+          <div class="aspect-[3/4] bg-black overflow-hidden mb-4 relative">
+            <img src="/assets/extracted/prod_dress.png" alt="Dress" class="w-full h-full object-cover">
+            <div class="absolute top-2 right-2 text-[9px] bg-black text-[#D4AF37] px-2 py-0.5 font-mono border border-[#D4AF37]/30">03/08</div>
+          </div>
+          <div class="text-xs font-syne uppercase tracking-wider text-stone-400">Couture</div>
+          <div class="font-syne font-bold uppercase text-white mt-1">BODYCON SILK SLIP</div>
+          <div class="flex items-center space-x-2 mt-2 font-mono text-xs">
+            <span class="text-[#D4AF37] font-bold">₹1,599</span>
+            <span class="text-stone-600 line-through">₹2,299</span>
+          </div>
+        </div>
+
+        <div class="bg-[#141414] border border-[#222222] p-4 group hover:border-[#D4AF37] transition">
+          <div class="aspect-[3/4] bg-black overflow-hidden mb-4 relative">
+            <img src="/assets/extracted/prod_rings.png" alt="Rings" class="w-full h-full object-cover">
+            <div class="absolute top-2 right-2 text-[9px] bg-black text-[#D4AF37] px-2 py-0.5 font-mono border border-[#D4AF37]/30">04/08</div>
+          </div>
+          <div class="text-xs font-syne uppercase tracking-wider text-stone-400">Bands</div>
+          <div class="font-syne font-bold uppercase text-white mt-1">STACKABLE TRIO</div>
+          <div class="flex items-center space-x-2 mt-2 font-mono text-xs">
+            <span class="text-[#D4AF37] font-bold">₹699</span>
+            <span class="text-stone-600 line-through">₹999</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THEME 3: INDIAN ROYALE MODERNÉ -->
+  <div id="theme-royale" class="max-w-6xl mx-auto bg-[#132A22] text-[#F4EFE6] rounded-xl shadow-2xl overflow-hidden border border-[#D1A654]/40 hidden transition-all duration-300">
+    <!-- Top Royal Strip -->
+    <div class="bg-[#0B1A15] text-[#D1A654] px-6 py-2.5 text-[11px] tracking-[0.3em] uppercase text-center font-cinzel border-b border-[#D1A654]/20 flex justify-between">
+      <span>24K Kundan & Polki Heritage</span>
+      <span>FOAXX Shahi Collection</span>
+      <span>Heirloom Certified Jewellery</span>
+    </div>
+
+    <!-- Royale Header -->
+    <header class="px-8 py-5 border-b border-[#D1A654]/20 flex items-center justify-between bg-[#132A22]/95">
+      <div class="flex items-center space-x-6 text-xs uppercase tracking-[0.2em] font-cinzel text-[#E1D4BF]">
+        <a href="#" class="hover:text-[#D1A654] transition">Royal Jewels</a>
+        <a href="#" class="hover:text-[#D1A654] transition">Bridal Trousseau</a>
+        <a href="#" class="hover:text-[#D1A654] transition">Handcrafted</a>
+      </div>
+      <div class="text-center">
+        <div class="font-cinzel text-3xl tracking-[0.35em] font-bold text-[#EED8A1] uppercase">FOAXX</div>
+        <div class="text-[9px] uppercase tracking-[0.45em] text-[#C09848] font-medium mt-1">HERITAGE JEWELLERS • ESTD 2024</div>
+      </div>
+      <div class="flex items-center space-x-6 text-[#E1D4BF] font-cinzel text-xs">
+        <span class="text-[#D1A654] cursor-pointer">Kosh (Vault)</span>
+        <span>Cart [₹4,897]</span>
+      </div>
+    </header>
+
+    <!-- Royale Hero -->
+    <div class="relative p-8 md:p-16 border-b border-[#D1A654]/30 bg-gradient-to-r from-[#0E201A] via-[#132A22] to-[#1A382D]">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+        <div class="space-y-5">
+          <div class="inline-flex items-center space-x-2 text-[10px] font-cinzel tracking-[0.3em] text-[#D1A654] uppercase bg-[#0B1A15] px-3.5 py-1.5 border border-[#D1A654]/40">
+            <span>⚜</span>
+            <span>SHAHI UTSAV COLLECTION</span>
+            <span>⚜</span>
+          </div>
+          <h2 class="text-4xl md:text-5xl font-cinzel font-normal text-[#F4EFE6] leading-tight">
+            Splendour of the <br><span class="italic text-[#D1A654]">Royal Courtyards</span>
+          </h2>
+          <p class="text-[#C8BEAE] text-sm leading-relaxed max-w-md font-light">
+            Rooted in centuries-old Indian Jadau and Meenakari craftsmanship. Adorned with uncut polki and lustrous pearls to elevate every regal occasion.
+          </p>
+          <div class="pt-2 flex items-center space-x-4">
+            <button class="px-7 py-3 bg-[#D1A654] text-[#0B1A15] font-cinzel text-xs uppercase tracking-[0.2em] font-bold hover:bg-[#EED8A1] transition shadow-lg">
+              Explore Shahi Jewels
+            </button>
+            <button class="px-7 py-3 border border-[#D1A654] text-[#D1A654] font-cinzel text-xs uppercase tracking-[0.2em] hover:bg-[#D1A654]/10 transition">
+              Book Concierge
+            </button>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/5] rounded-lg overflow-hidden border-2 border-[#D1A654]/60 shadow-2xl relative p-2 bg-[#0B1A15]/60">
+            <img src="/assets/extracted/cat_jewellery.png" alt="Royal Jewels" class="w-full h-full object-cover rounded">
+            <div class="absolute bottom-6 left-6 right-6 bg-[#0E201A]/90 border border-[#D1A654]/50 p-3 text-center rounded">
+              <span class="text-[9px] uppercase tracking-[0.3em] text-[#D1A654] block font-cinzel">Rani Sahiba Pick</span>
+              <span class="font-cinzel text-base text-[#F4EFE6]">Nizam Emerald & Kundan Haar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Royale Product Grid -->
+    <div class="p-8 md:p-12">
+      <div class="flex justify-between items-center mb-8 border-b border-[#D1A654]/20 pb-4">
+        <div>
+          <span class="text-[10px] uppercase tracking-[0.3em] text-[#D1A654] font-cinzel block mb-1">DARBAR SPECIALS</span>
+          <h3 class="text-2xl font-cinzel text-[#F4EFE6]">Curated Regalia</h3>
+        </div>
+        <span class="text-xs uppercase tracking-[0.2em] text-[#D1A654] font-cinzel hover:underline cursor-pointer">Sampoorna Darshana &rarr;</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-[#0E201A] border border-[#D1A654]/30 p-4 rounded group hover:border-[#D1A654] transition">
+          <div class="aspect-[3/4] bg-[#07130F] overflow-hidden mb-3 relative rounded">
+            <img src="/assets/extracted/prod_pearl_earrings.png" alt="Jhumkas" class="w-full h-full object-cover">
+            <span class="absolute top-2 left-2 bg-[#851D28] text-white text-[9px] font-cinzel uppercase px-2 py-0.5">24k Jadau</span>
+          </div>
+          <span class="text-[10px] font-cinzel tracking-wider text-[#A39786] block">Chandbali & Drops</span>
+          <h4 class="font-cinzel text-sm text-[#F4EFE6] group-hover:text-[#D1A654] transition mt-1">Noor Pearl Danglers</h4>
+          <div class="flex items-center space-x-2 mt-2 font-cinzel text-xs">
+            <span class="text-[#D1A654] font-bold">₹899</span>
+            <span class="text-stone-500 line-through">₹1,299</span>
+          </div>
+        </div>
+
+        <div class="bg-[#0E201A] border border-[#D1A654]/30 p-4 rounded group hover:border-[#D1A654] transition">
+          <div class="aspect-[3/4] bg-[#07130F] overflow-hidden mb-3 relative rounded">
+            <img src="/assets/extracted/prod_necklace.png" alt="Necklace" class="w-full h-full object-cover">
+            <span class="absolute top-2 left-2 bg-[#D1A654] text-[#0B1A15] text-[9px] font-cinzel font-bold uppercase px-2 py-0.5">Shahi Haar</span>
+          </div>
+          <span class="text-[10px] font-cinzel tracking-wider text-[#A39786] block">Kundan Chokers</span>
+          <h4 class="font-cinzel text-sm text-[#F4EFE6] group-hover:text-[#D1A654] transition mt-1">Meenakari Charm Choker</h4>
+          <div class="flex items-center space-x-2 mt-2 font-cinzel text-xs">
+            <span class="text-[#D1A654] font-bold">₹1,299</span>
+            <span class="text-stone-500 line-through">₹1,799</span>
+          </div>
+        </div>
+
+        <div class="bg-[#0E201A] border border-[#D1A654]/30 p-4 rounded group hover:border-[#D1A654] transition">
+          <div class="aspect-[3/4] bg-[#07130F] overflow-hidden mb-3 relative rounded">
+            <img src="/assets/extracted/prod_rings.png" alt="Rings" class="w-full h-full object-cover">
+          </div>
+          <span class="text-[10px] font-cinzel tracking-wider text-[#A39786] block">Angoothi</span>
+          <h4 class="font-cinzel text-sm text-[#F4EFE6] group-hover:text-[#D1A654] transition mt-1">Panchdhatu Ring Set</h4>
+          <div class="flex items-center space-x-2 mt-2 font-cinzel text-xs">
+            <span class="text-[#D1A654] font-bold">₹699</span>
+            <span class="text-stone-500 line-through">₹999</span>
+          </div>
+        </div>
+
+        <div class="bg-[#0E201A] border border-[#D1A654]/30 p-4 rounded group hover:border-[#D1A654] transition">
+          <div class="aspect-[3/4] bg-[#07130F] overflow-hidden mb-3 relative rounded">
+            <img src="/assets/extracted/prod_floral_coord.png" alt="Dress" class="w-full h-full object-cover">
+            <span class="absolute top-2 left-2 bg-[#851D28] text-white text-[9px] font-cinzel uppercase px-2 py-0.5">Gulabi Poshak</span>
+          </div>
+          <span class="text-[10px] font-cinzel tracking-wider text-[#A39786] block">Poshak</span>
+          <h4 class="font-cinzel text-sm text-[#F4EFE6] group-hover:text-[#D1A654] transition mt-1">Gulnar Co-ord Ensemble</h4>
+          <div class="flex items-center space-x-2 mt-2 font-cinzel text-xs">
+            <span class="text-[#D1A654] font-bold">₹1,699</span>
+            <span class="text-stone-500 line-through">₹2,499</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comparison Summary Grid -->
+  <div class="max-w-6xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-stone-900/80 p-6 rounded-xl border border-stone-800">
+      <div class="flex items-center space-x-2 mb-3">
+        <span class="w-3 h-3 rounded-full bg-[#FAF8F5]"></span>
+        <span class="w-3 h-3 rounded-full bg-[#C5A880]"></span>
+        <span class="w-3 h-3 rounded-full bg-[#1C1815]"></span>
+        <h4 class="text-white font-semibold text-sm ml-2">Theme 1: Atelier Parisien</h4>
+      </div>
+      <p class="text-stone-400 text-xs leading-relaxed mb-3">
+        Mejuri aur Cartier jaisa old-money quiet luxury aesthetic. Warm Alabaster background, high-contrast serif typography, soft hairline borders.
+      </p>
+      <div class="text-[11px] text-[#C5A880] font-medium">Best for: Everyday Fine Jewellery & Contemporary Western Wear</div>
+    </div>
+
+    <div class="bg-stone-900/80 p-6 rounded-xl border border-stone-800">
+      <div class="flex items-center space-x-2 mb-3">
+        <span class="w-3 h-3 rounded-full bg-[#0E0E0E]"></span>
+        <span class="w-3 h-3 rounded-full bg-[#D4AF37]"></span>
+        <span class="w-3 h-3 rounded-full bg-white"></span>
+        <h4 class="text-white font-semibold text-sm ml-2">Theme 2: Modern Noir</h4>
+      </div>
+      <p class="text-stone-400 text-xs leading-relaxed mb-3">
+        Saint Laurent & Milan runway style. Sharp edges, pitch black obsidian, 18K mirror champagne gold, bold architectural grotesque fonts.
+      </p>
+      <div class="text-[11px] text-[#D4AF37] font-medium">Best for: High-Fashion, Night Glam & Modern Minimalist Look</div>
+    </div>
+
+    <div class="bg-stone-900/80 p-6 rounded-xl border border-stone-800">
+      <div class="flex items-center space-x-2 mb-3">
+        <span class="w-3 h-3 rounded-full bg-[#132A22]"></span>
+        <span class="w-3 h-3 rounded-full bg-[#D1A654]"></span>
+        <span class="w-3 h-3 rounded-full bg-[#851D28]"></span>
+        <h4 class="text-white font-semibold text-sm ml-2">Theme 3: Indian Royale</h4>
+      </div>
+      <p class="text-stone-400 text-xs leading-relaxed mb-3">
+        Sabyasachi & Raw Mango style heritage couture. Deep imperial emerald green, 24K Kundan gold filigree, regal Cinzel typography.
+      </p>
+      <div class="text-[11px] text-[#D1A654] font-medium">Best for: Bridal, Festive Kundan-Polki & Ethnic Grandeur</div>
+    </div>
+  </div>
+
+  <script>
+    function switchTheme(theme) {
+      document.getElementById('theme-atelier').classList.add('hidden');
+      document.getElementById('theme-noir').classList.add('hidden');
+      document.getElementById('theme-royale').classList.add('hidden');
+
+      document.getElementById('tab-atelier').className = 'px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all text-stone-400 hover:text-white';
+      document.getElementById('tab-noir').className = 'px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all text-stone-400 hover:text-white';
+      document.getElementById('tab-royale').className = 'px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all text-stone-400 hover:text-white';
+
+      if (theme === 'atelier') {
+        document.getElementById('theme-atelier').classList.remove('hidden');
+        document.getElementById('tab-atelier').className = 'px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-[#C5A880] text-stone-950 shadow';
+      } else if (theme === 'noir') {
+        document.getElementById('theme-noir').classList.remove('hidden');
+        document.getElementById('tab-noir').className = 'px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-[#D4AF37] text-stone-950 shadow';
+      } else if (theme === 'royale') {
+        document.getElementById('theme-royale').classList.remove('hidden');
+        document.getElementById('tab-royale').className = 'px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-[#D1A654] text-stone-950 shadow';
+      }
+    }
+  </script>
+</body>
+</html>

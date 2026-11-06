@@ -1,0 +1,1033 @@
+# FOAXX — COMPLETE E-COMMERCE WEBSITE DESIGN & DEVELOPMENT MASTER PROMPT
+
+## ROLE AND OBJECTIVE
+
+Act as an expert UI/UX designer, luxury fashion art director, senior frontend engineer, and e-commerce product architect.
+
+Create a complete, premium, modern, responsive women's fashion and jewellery e-commerce website for the brand:
+
+**FOAXX**
+**Tagline: WEAR YOUR WOW.**
+
+I have attached a reference image of the exact FOAXX homepage design I want. Treat this image as the authoritative visual specification.
+
+The primary objective is to recreate the reference image as closely as technically possible while building an editable, interactive, multi-page e-commerce UI that can later be connected to a real backend.
+
+This is NOT a request to create a different design inspired by the image.
+
+It is a request to reproduce the same visual design, section order, typography style, colour palette, spacing, image placement, product layout and overall composition.
+
+Do not invent a new brand identity. Do not simplify the reference. Do not replace it with a generic Shopify-style template.
+
+---
+
+# PART 1 — STRICT REFERENCE IMAGE MATCHING
+
+## 1. Reference image is the source of truth
+
+Before generating the interface, carefully inspect the attached reference image.
+
+Reproduce the following elements as closely as possible:
+
+- Exact overall page composition.
+- Header height and horizontal alignment.
+- Black announcement strip.
+- FOAXX logo placement and typography.
+- Search bar size, position and shape.
+- Account, wishlist and cart icons.
+- Navigation row and dropdown indicators.
+- Hero banner height and image crop.
+- Fashion model's position within the hero.
+- Headline alignment and typography.
+- CTA button placement, dimensions and styling.
+- Category tile dimensions and sequence.
+- Benefits strip proportions.
+- New Arrivals product grid.
+- Product image aspect ratios.
+- Product labels, prices, discount percentages and swatches.
+- Three collection banners at the bottom.
+- Background colours, margins, gaps and whitespace.
+
+The design must visually resemble the reference at the same desktop viewport and aspect ratio.
+
+Do not introduce additional homepage sections that change the reference composition.
+
+Use the reference image for visual decisions rather than making independent creative choices.
+
+## 2. Exact visual hierarchy
+
+Maintain this exact homepage order:
+
+1. Black announcement bar.
+2. Main white brand header.
+3. Secondary navigation row.
+4. Large editorial hero banner.
+5. Ten-category image strip.
+6. Four-item trust and benefits strip.
+7. New Arrivals section with eight products.
+8. Three side-by-side collection banners.
+
+The first generated screen must reproduce this complete desktop composition.
+
+Create other pages separately without changing the reference homepage.
+
+## 3. Brand identity
+
+Brand name: FOAXX.
+
+Tagline: WEAR YOUR WOW.
+
+Positioning: Youthful, modern, stylish, feminine and aspirational women's fashion.
+
+Primary market: India.
+
+Currency: INR (₹).
+
+Target audience: Gen Z, young adults and modern women shopping for jewellery, clothing, handbags, footwear and accessories.
+
+Use the same visual identity across all screens.
+
+### Colour palette
+
+Match the reference image's palette:
+
+- Warm ivory.
+- Creamy off-white.
+- Black.
+- Charcoal.
+- Muted blush pink.
+- Soft coral.
+- Champagne gold.
+- Warm beige.
+
+Do not substitute this palette with purple, blue gradients, neon colours or unrelated visual themes.
+
+### Typography
+
+Use an elegant high-contrast serif for major fashion headlines and editorial collection titles.
+
+Use a clean, modern sans-serif for navigation, descriptions, prices, product labels and controls.
+
+Use letter spacing for the FOAXX wordmark and small uppercase labels.
+
+Keep the visual hierarchy, text density and alignment close to the reference.
+
+---
+
+# PART 2 — EXACT HOMEPAGE DESIGN
+
+## 4. Announcement bar
+
+Create the thin black announcement strip at the very top.
+
+Display three horizontally distributed message groups:
+
+Left:
+Free Shipping on Orders Above ₹999
+
+Centre:
+FLAT 20% OFF | Use Code: FOAXX20
+
+Right:
+Easy Returns | Secure Payments
+
+Use white text and small, understated icons.
+
+Match the reference's compact height and spacing.
+
+Make announcement messages editable from the future admin panel. All promotional claims must reflect actual store policies and configured campaigns before launch.
+
+## 5. Main header
+
+Create the same white header as the reference.
+
+Left:
+- Large FOAXX logo.
+- Small tagline beneath the logo: WEAR YOUR WOW.
+
+Centre:
+- Wide rounded search field.
+- Placeholder: Search for jewellery, dresses, bags and more...
+- Black search button with a white search icon.
+
+Right:
+- Account icon and label.
+- Wishlist icon and label.
+- Shopping bag/cart icon and item-count badge.
+
+Use minimal black line icons and maintain the same proportions and spacing.
+
+## 6. Navigation bar
+
+Below the main header, create this exact navigation row:
+
+New In | Clothing | Jewellery | Accessories | Bags | Footwear | Collections | Sale
+
+Add dropdown indicators to the relevant category links.
+
+Display a small coral-red HOT badge beside Sale.
+
+Create desktop mega-menus with category links and promotional imagery. Keep the navigation clean and compact.
+
+## 7. Hero banner
+
+Reproduce the reference's wide, warm beige editorial fashion hero.
+
+The composition must contain:
+
+- A large fashion model wearing elegant jewellery on the centre-right.
+- Warm neutral lighting.
+- An elegant beige background.
+- Text content positioned on the left.
+- A handwritten fashion-and-jewellery decorative message on the far right.
+- Circular previous and next controls.
+- Small carousel indicators at the bottom.
+
+Use the following text exactly:
+
+Small brand label:
+FOAXX
+
+Main headline:
+YOUR STYLE.
+YOUR STATEMENT.
+
+Highlight STATEMENT. in muted coral pink.
+
+Supporting text:
+Discover the pieces that make every moment yours.
+
+Primary CTA:
+SHOP NEW ARRIVALS →
+
+Secondary CTA:
+EXPLORE COLLECTION
+
+Preserve the reference's large serif headline, line breaks, font hierarchy and button alignment.
+
+Use a suitable high-quality editorial fashion photograph. If the exact source photograph is unavailable, select the closest matching image composition and colour treatment.
+
+Do not replace the hero with a generic three-column banner or a different layout.
+
+## 8. Ten-category image strip
+
+Directly below the hero, reproduce the same horizontal category strip with ten individual tiles in this order:
+
+1. Jewellery
+2. Earrings
+3. Necklaces
+4. Rings
+5. Clothing
+6. Dresses
+7. Bags
+8. Footwear
+9. Accessories
+10. Gifting
+
+Each tile must contain:
+
+- A distinct, relevant image.
+- Consistent image dimensions.
+- Subtle rounded corners.
+- A centred category label below the image.
+- Consistent spacing.
+
+Keep all ten categories visible in a single row on the target desktop viewport, as shown in the reference.
+
+Make the tiles clickable.
+
+On smaller screens, allow horizontal scrolling without causing page overflow.
+
+## 9. Four-item benefits strip
+
+Recreate the pale neutral strip below the category images.
+
+Use four evenly spaced benefits:
+
+1. Free Shipping
+   Above ₹999
+
+2. Easy Returns
+   7 Days Return
+
+3. Secure Payments
+   100% Safe & Secure
+
+4. Premium Quality
+   Trendy & Long Lasting
+
+Use simple black outline icons and compact text.
+
+Ensure the shipping threshold, return period and payment-security claims can be updated from store settings before the website goes live.
+
+## 10. New Arrivals section
+
+Reproduce the New Arrivals section as shown in the reference.
+
+Left:
+New Arrivals
+
+Subtitle:
+Fresh styles for your next favourite look.
+
+Right:
+View All →
+
+Display exactly eight product cards in one horizontal desktop row at the target viewport.
+
+Use these sample products and values:
+
+Product 1:
+Name: Floral Co-ord Set
+Price: ₹1,699
+Original price: ₹2,499
+Discount: 32% OFF
+Badge: New
+
+Product 2:
+Name: Pearl Drop Earrings
+Price: ₹899
+Original price: ₹1,299
+Discount: 31% OFF
+Badge: Bestseller
+
+Product 3:
+Name: Classic Shoulder Bag
+Price: ₹1,899
+Original price: ₹2,799
+Discount: 32% OFF
+Badge: New
+
+Product 4:
+Name: Minimal Charm Necklace
+Price: ₹1,299
+Original price: ₹1,799
+Discount: 28% OFF
+Badge: New
+
+Product 5:
+Name: Ruched Bodycon Dress
+Price: ₹1,599
+Original price: ₹2,299
+Discount: 30% OFF
+Badge: Bestseller
+
+Product 6:
+Name: Stackable Ring Set
+Price: ₹699
+Original price: ₹999
+Discount: 30% OFF
+Badge: Bestseller
+
+Product 7:
+Name: Linen Shirt Top
+Price: ₹1,199
+Original price: ₹1,799
+Discount: 33% OFF
+Badge: New
+
+Product 8:
+Name: Strappy Heels
+Price: ₹1,499
+Original price: ₹2,199
+Discount: 32% OFF
+Badge: New
+
+These values are demonstration content. They must be editable through the admin panel.
+
+Each card must contain:
+
+- Product image.
+- New or Bestseller badge.
+- Wishlist heart icon.
+- Product name.
+- Current price.
+- Original price with strikethrough.
+- Discount percentage in coral red.
+- Small colour swatches where relevant.
+
+Keep the cards visually compact and consistent with the reference. Do not introduce heavy shadows or oversized borders.
+
+Product images must be distinct, high quality and relevant to their respective products.
+
+## 11. Three bottom collection banners
+
+Create exactly three side-by-side wide image banners at the bottom of the visible homepage.
+
+### Banner 1 — The Jewellery Edit
+
+Title:
+The Jewellery Edit
+
+Subtitle:
+Timeless pieces for every you.
+
+Button:
+SHOP NOW →
+
+Visual direction: Dark, luxurious jewellery close-ups with warm golden highlights.
+
+### Banner 2 — Everyday Essentials
+
+Title:
+Everyday Essentials
+
+Subtitle:
+Style made for your everyday.
+
+Button:
+SHOP NOW →
+
+Visual direction: Soft beige and blush fashion photography with a stylish model and handbag.
+
+### Banner 3 — Festive Glam
+
+Title:
+Festive Glam
+
+Subtitle:
+For your special moments.
+
+Button:
+SHOP NOW →
+
+Visual direction: Rich festive lighting, elegant occasion wear and statement jewellery.
+
+Use readable text overlays and understated buttons.
+
+Maintain equal banner heights, balanced spacing and the reference's image proportions.
+
+---
+
+# PART 3 — FULL E-COMMERCE STOREFRONT
+
+The homepage must visually match the supplied reference. Other pages should use the same design system.
+
+## 12. Shop and collection pages
+
+Create a complete shop experience with:
+
+- Shop All.
+- New Arrivals.
+- Clothing.
+- Jewellery.
+- Earrings.
+- Necklaces.
+- Rings.
+- Bags.
+- Footwear.
+- Accessories.
+- Collections.
+- Sale.
+
+Support:
+
+- Product search.
+- Search suggestions.
+- Sorting by newest, popularity and price.
+- Price range filters.
+- Category and subcategory filters.
+- Size and colour filters where relevant.
+- Material and style filters where relevant.
+- Availability filters.
+- Discount filters.
+- Clear-all-filters action.
+- Active filter chips.
+- Product count.
+- Pagination or load more.
+- Helpful empty states.
+
+Filters must adapt to the product category.
+
+## 13. Product detail page
+
+Create a premium product page with:
+
+- Multiple product images.
+- Image thumbnails.
+- Full-screen image viewer.
+- Image zoom.
+- Optional product videos.
+- Product name and price.
+- Original price and valid discount.
+- New, Bestseller, Sale and Out of Stock badges.
+- Colour and size selection where applicable.
+- Material and product specifications.
+- Quantity selector.
+- Live stock status.
+- Add to Cart.
+- Buy Now.
+- Add to Wishlist.
+- Delivery estimate by PIN code.
+- Shipping and return information.
+- Product description.
+- Size guide for relevant products.
+- Jewellery dimensions and finish.
+- Verified material or hallmark details where applicable.
+- Genuine customer reviews.
+- Related products.
+- Frequently bought together.
+- Complete the look.
+- Recently viewed products.
+
+When a product is out of stock, prevent purchasing and optionally offer a notify-me option.
+
+Variant changes should update the correct price, SKU, image and availability when supported by the product data.
+
+## 14. Wishlist and cart
+
+### Wishlist
+
+Allow customers to add and remove products and view their saved items.
+
+Persist the wishlist for authenticated users.
+
+### Shopping cart
+
+Display:
+
+- Product image.
+- Product name.
+- Selected variant.
+- Current price.
+- Quantity controls.
+- Remove action.
+- Save-for-later action.
+- Applied discounts.
+- Shipping estimate.
+- Estimated total.
+- Promo code field.
+- Continue shopping.
+- Proceed to checkout.
+
+Validate stock and prices using authoritative server data when implemented.
+
+## 15. Checkout and payments
+
+Design a simple, mobile-friendly checkout.
+
+Include:
+
+1. Guest checkout or login.
+2. Contact information.
+3. Shipping address.
+4. PIN code validation.
+5. Delivery estimate.
+6. Shipping method.
+7. Order summary.
+8. Promo code application.
+9. Payment selection.
+10. Final order review.
+11. Order confirmation.
+
+Design for Indian payment methods such as UPI, debit/credit cards and net banking, with Cash on Delivery where enabled.
+
+Use INR throughout the storefront.
+
+Clearly show product totals, shipping charges, applicable taxes, discounts and the final payable amount.
+
+Create payment-pending, success, failure and retry states.
+
+Do not require account creation for checkout.
+
+---
+
+# PART 4 — LOGIN, GOOGLE SIGN-IN AND CUSTOMER PROFILE
+
+## 16. Authentication screens
+
+Design:
+
+- Login.
+- Sign Up.
+- Google sign-in button.
+- Forgot Password.
+- Email verification.
+- Optional phone OTP verification.
+- Password reset.
+- Authentication error states.
+
+Use the same FOAXX branding.
+
+Google sign-in must eventually be connected to real OAuth authentication. A decorative button alone is not sufficient.
+
+## 17. Customer dashboard
+
+After login, customers should be able to access:
+
+- Profile overview.
+- Edit profile.
+- Saved addresses.
+- Order history.
+- Order details.
+- Shipment tracking.
+- Wishlist.
+- Returns and exchanges.
+- Cancellation requests where eligible.
+- Refund status.
+- Invoices.
+- Password and security settings.
+- Communication preferences.
+- Logout.
+
+Use an intuitive sidebar on desktop and a responsive account navigation on mobile.
+
+Customers must only access their own records.
+
+---
+
+# PART 5 — ADMIN PANEL
+
+## 18. Separate admin application
+
+Create a professional admin application at a route such as /admin.
+
+Use a clean dashboard layout with:
+
+- Sidebar navigation.
+- Top bar.
+- Search.
+- Notifications.
+- Admin profile menu.
+- Breadcrumbs.
+- Tables.
+- Filters.
+- Forms.
+- Confirmation dialogs.
+- Success and error feedback.
+- Loading and empty states.
+
+The admin design should be operationally efficient and visually consistent with the FOAXX brand.
+
+## 19. Admin dashboard
+
+Display metrics based on real data when connected:
+
+- Total revenue.
+- Total orders.
+- Average order value.
+- Revenue trends.
+- Pending orders.
+- Low-stock products.
+- Out-of-stock products.
+- Best-selling products.
+- Active promotions.
+- Customer growth.
+- Returns and refunds.
+
+Include date filters, charts and drill-down links.
+
+Label prototype metrics as demo data.
+
+## 20. Product management
+
+Create a complete product management module.
+
+Allow authorized admins to:
+
+- Create products.
+- View products.
+- Edit products.
+- Archive or delete products.
+- Upload multiple images.
+- Replace images.
+- Remove images.
+- Reorder gallery images.
+- Select the main image.
+- Add image alt text.
+- Upload optional videos.
+- Change product names.
+- Edit descriptions.
+- Change prices.
+- Change sale prices.
+- Manage SKUs.
+- Manage sizes, colours and variants.
+- Update stock.
+- Set low-stock thresholds.
+- Assign categories.
+- Add tags.
+- Mark products as New.
+- Mark products as Bestseller.
+- Mark products as Featured.
+- Mark products as Sale.
+- Publish or unpublish products.
+- Schedule publication.
+- Bulk edit products.
+- Import/export product data where supported.
+
+Out-of-stock status must reflect actual inventory. Bestseller status should be admin-controlled or based on a clearly defined sales rule.
+
+All product fields and media must be editable.
+
+Product changes must appear on the storefront through the connected data layer without requiring a new code deployment.
+
+## 21. Image and homepage content management
+
+This feature is essential.
+
+Create a visual content-management module allowing the admin to manage the entire homepage.
+
+Admin must be able to:
+
+- Replace the hero image.
+- Upload new campaign images.
+- Change desktop hero imagery.
+- Change mobile hero imagery.
+- Add, edit and remove carousel slides.
+- Edit hero headlines and subtitles.
+- Edit CTA text and destinations.
+- Upload category images.
+- Replace category images.
+- Add and remove categories.
+- Reorder categories.
+- Replace product images.
+- Manage collection banner images.
+- Change collection titles.
+- Change promotional text.
+- Select products for homepage sections.
+- Show or hide homepage sections.
+- Reorder homepage sections.
+- Update the announcement bar.
+- Schedule promotions.
+- Preview unpublished changes.
+- Publish updates.
+
+Provide image previews, upload progress, validation and clear save/publish controls.
+
+Use editable content records rather than hardcoding images into the UI.
+
+## 22. Category and collection management
+
+Allow admins to:
+
+- Create categories and subcategories.
+- Change category names.
+- Upload category images.
+- Assign products.
+- Create curated collections.
+- Select collection products.
+- Change collection images.
+- Reorder collections.
+- Set collection visibility.
+- Configure sorting.
+- Edit SEO titles and descriptions.
+
+## 23. Inventory management
+
+Include:
+
+- Stock by SKU and variant.
+- Manual stock adjustments.
+- Low-stock alerts.
+- Out-of-stock handling.
+- Inventory history.
+- Bulk stock updates.
+- Prevention of overselling.
+- Appropriate stock reservation during checkout.
+
+## 24. Promotions and promo codes
+
+Create a complete promotional management interface.
+
+Support:
+
+- Percentage discounts.
+- Fixed-value discounts.
+- Product-specific offers.
+- Category-specific offers.
+- Minimum order value.
+- Maximum discount caps.
+- First-order discounts.
+- Free-shipping offers.
+- Automatic discounts.
+- Coupon codes.
+- Start and end dates.
+- Redemption limits.
+- Per-customer usage limits.
+- Eligible customer groups where supported.
+- Active, scheduled, expired and paused states.
+
+Example demonstration codes:
+
+WELCOME10  
+FOAXX15  
+STYLE20
+
+The admin must be able to create, edit, pause and delete promotions.
+
+Validate coupon eligibility, expiry, stacking rules and redemption limits on the backend.
+
+Never rely only on frontend calculations for discounts.
+
+## 25. Order management
+
+Admins must be able to:
+
+- View all orders.
+- Search by order number.
+- Filter by date and status.
+- View order details.
+- Check payment status.
+- Check fulfilment status.
+- View ordered items.
+- View customer shipping information according to permissions.
+- Add internal notes.
+- Update fulfilment status.
+- Manage cancellations.
+- Manage return and exchange requests.
+- Initiate eligible refunds.
+- Export order data.
+- Send customer notifications.
+
+Maintain an appropriate order history and audit trail.
+
+---
+
+# PART 6 — SHIPMENT TRACKING
+
+## 26. Customer-facing order tracking
+
+Provide a clear tracking page with:
+
+- Order number.
+- Order date.
+- Courier name.
+- Tracking/AWB number.
+- Estimated delivery date.
+- Current shipment status.
+- Timestamped tracking events.
+- Delivery exceptions.
+
+Display a visual timeline:
+
+Order Placed → Confirmed → Processing → Packed → Shipped → Out for Delivery → Delivered.
+
+Support cancellation, return and refund statuses where relevant.
+
+Allow tracking from the customer profile and a secure order-tracking link.
+
+Do not display a fictional live map or invented courier GPS location.
+
+Use actual courier events and delivery estimates from a supported shipping provider. If precise location data is unavailable, show the latest verified shipment status instead.
+
+## 27. Admin shipping controls
+
+Provide an interface for:
+
+- Courier selection.
+- Tracking/AWB number.
+- Shipment creation where supported.
+- Shipment status.
+- Dispatch details.
+- Delivery status.
+- Tracking event history.
+- Shipping label generation where supported.
+- Return shipment management.
+
+Actual courier integration must use secure server-side API calls and authenticated webhooks.
+
+---
+
+# PART 7 — CUSTOMER SUPPORT AND NOTIFICATIONS
+
+## 28. Notifications
+
+Design notification workflows for:
+
+- Order confirmation.
+- Payment confirmation.
+- Payment failure.
+- Order dispatch.
+- Out-for-delivery updates.
+- Delivery confirmation.
+- Cancellation.
+- Return and refund updates.
+- Password reset.
+- Promotional campaigns where customers have consented.
+
+Support email and optional SMS or WhatsApp integrations where configured.
+
+Allow admins to edit notification templates and control enabled channels.
+
+## 29. Support and policy pages
+
+Create:
+
+- Contact Us.
+- Frequently Asked Questions.
+- Shipping Policy.
+- Return and Exchange Policy.
+- Refund Policy.
+- Privacy Policy.
+- Terms and Conditions.
+- Size Guide.
+- Jewellery Care Guide.
+
+Use editable content and clear, customer-friendly layouts.
+
+---
+
+# PART 8 — TECHNICAL ARCHITECTURE
+
+## 30. Implementation guidance
+
+Build a maintainable, component-based application.
+
+Recommended technologies:
+
+- Frontend: React or Next.js with TypeScript.
+- Styling: Tailwind CSS or equivalent.
+- Backend: A suitable secure server-side application.
+- Database: PostgreSQL or a managed relational database.
+- Authentication: Secure auth provider with Google OAuth.
+- Media storage: Cloud storage with optimized image delivery.
+- Payments: A supported payment gateway such as Razorpay.
+- Shipping: Shiprocket or another compatible courier provider.
+- Notifications: A transactional email provider and optional messaging services.
+
+Treat these as recommendations requiring implementation and configuration.
+
+The homepage must use reusable components and data-driven content.
+
+Create suitable data models for:
+
+Users, roles, products, product variants, categories, collections, images, inventory, carts, orders, order items, payments, coupons, promotions, addresses, shipment events, reviews and site content.
+
+Use server-side validation, secure sessions, authorization checks, verified payment webhooks, idempotent payment processing, database transactions and safe secret management.
+
+Never expose private API credentials in frontend code.
+
+Use the same authoritative product, inventory, pricing, promotions and order data across the storefront and admin dashboard.
+
+If a real backend is unavailable, create a clearly labelled interactive prototype and do not pretend that payments, login or shipping integrations are live.
+
+---
+
+# PART 9 — RESPONSIVE DESIGN
+
+## 31. Desktop-first visual fidelity
+
+First recreate the reference image at its original wide desktop aspect ratio.
+
+Preserve:
+
+- One-row category navigation.
+- Eight-product desktop grid.
+- Three bottom collection banners.
+- Full-width hero.
+- Compact header.
+- Exact section sequence.
+- Same general content density.
+
+Do not alter the desktop design to accommodate additional features.
+
+## 32. Mobile responsiveness
+
+After the desktop design is approved, create responsive mobile versions with:
+
+- Compact header.
+- Mobile navigation drawer.
+- Touch-friendly buttons.
+- Horizontally scrollable categories.
+- Responsive product grids.
+- Readable product pricing.
+- Mobile-friendly checkout.
+- Responsive account pages.
+- Responsive admin tables and forms.
+
+Prevent horizontal page overflow.
+
+Maintain the same FOAXX visual identity at every viewport.
+
+---
+
+# PART 10 — INTERACTIONS AND QUALITY ASSURANCE
+
+## 33. Functional UI requirements
+
+Where supported by the generated project, implement:
+
+- Search interactions.
+- Dropdown navigation.
+- Hero carousel.
+- Category navigation.
+- Product detail navigation.
+- Wishlist interactions.
+- Cart quantity changes.
+- Cart count updates.
+- Add-to-cart actions.
+- Promo code validation states.
+- Checkout navigation.
+- Authentication screens.
+- Profile navigation.
+- Product filters.
+- Admin forms.
+- Image upload previews.
+- Product editing flows.
+- Homepage content editing flows.
+- Order status controls.
+- Tracking timeline display.
+
+Use meaningful loading, success, failure and empty states.
+
+Do not create decorative buttons that falsely imply successful operations.
+
+## 34. Reference comparison and final verification
+
+Before considering the homepage complete, compare it directly against the attached reference image.
+
+Check:
+
+1. Announcement bar height and text alignment.
+2. Logo size and position.
+3. Search bar dimensions.
+4. Navigation spacing.
+5. Hero image composition.
+6. Headline line breaks and colours.
+7. Hero CTA positions.
+8. Ten category tile sizes and order.
+9. Four benefits and icon positions.
+10. Eight product cards and their sequence.
+11. Product image proportions and pricing alignment.
+12. Three collection banners and their proportions.
+13. Overall margins, whitespace and background tones.
+
+Correct visual mismatches rather than introducing a new design.
+
+Use the actual reference image throughout the design process. If an exact source asset is unavailable, use the closest possible replacement while preserving its composition.
+
+## 35. Work in phases without changing the design
+
+Generate the project in the following sequence:
+
+PHASE 1: Reproduce the exact reference homepage.
+
+PHASE 2: Refine the homepage until the visual composition matches the reference as closely as possible.
+
+PHASE 3: Create shop, category, collection and product-detail screens using the same design system.
+
+PHASE 4: Create wishlist, cart, checkout and authentication screens.
+
+PHASE 5: Create customer profile, order history and shipment tracking screens.
+
+PHASE 6: Create the complete admin dashboard, product management, image manager, promotions, inventory and order management.
+
+PHASE 7: Create responsive mobile layouts and refine interactions.
+
+PHASE 8: Prepare the UI for integration with the real backend.
+
+Do not change the approved homepage design during later phases.
+
+## FINAL NON-NEGOTIABLE INSTRUCTION
+
+The attached FOAXX reference image defines the exact desired homepage appearance.
+
+Prioritize visual fidelity above creative interpretation.
+
+Recreate the same header, hero, typography, colours, category strip, benefits strip, eight-product row and three collection banners.
+
+Do not redesign the homepage. Do not replace the reference layout. Do not add unrequested sections to the first screen.
+
+Build an editable, responsive, reusable UI that looks as close as technically possible to the supplied reference while allowing the complete e-commerce platform to be developed around it.
+
+**Brand: FOAXX — WEAR YOUR WOW.**
